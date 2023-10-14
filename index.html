@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Afraz - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Afraz Talat
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          Afraztalat92@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +92 325 1594898
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendation">Recommendation</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://img.freepik.com/free-vector/programmer-working-web-development-code-engineer-programming-python-php-java-script-computer_90220-250.jpg?w=740&t=st=1697101473~exp=1697102073~hmac=0249c50c3b0e5542dd35706a38dfbbe71f6465fc2cdaf15ac77df9f8dbbbcf91" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Afraz Talat!<img src="download.png" alt="" width="100px" height="100px">
+          </h1>
+          <p>
+            I am a 3D modeller with 3 years of experience in both application and presentation layers.
+            I have worked on Blender, Sketchup and 3dsMax. 
+            I am an avid user of prepar3d and have worked on multiple sceneries, Dubai and Lahore, to name a few.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>1 month experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="CSS3.png"/>
+          <h6>CSS</h6>
+          <p>1 month experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://d2t1xqejof9utc.cloudfront.net/groups/pictures/268/original.png?1528531301"/>
+          <h6>3DsMax</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://download.blender.org/branding/community/blender_community_badge_orange.png"/>
+          <h6>Blender</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://banner2.cleanpng.com/20180331/fgw/kisspng-sketchup-symbol-logo-3d-computer-graphics-sketch-5abf3b4ea88596.3425064615224819986903.jpg"/>
+          <h6>Sketchup</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Lahore Remake</h3>
+            <ul>
+              <li>MSK Lahore airport ground was scrapped off and a new ground was built from scratch, it took me 1 month. Addition of PBR and Normal Makes it more beautiful</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>FlyTampa Dubai C Gates addition</h3>
+            <ul>
+              <li>Discontinued FLytampa Dubai didnt had C gates so i added them using my skills from xplane to p3d and also edited the ground polygons to match with realism</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>New Riyadh Terminal</h3>
+            <ul>
+              <li>My main purpose of starting 3D Modelling was to remake Armi Project Riyadh terminal because it really looked bad. So finally after 3 years of experience i was able to make New Riyadh Terminal and it actually looks really beautiful</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          A skilled 3D modeler, specializing in P3D, renowned for meticulously crafting Lahore's ground, Dubai's C gates, and Riyadh's terminal from the ground up
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          A master of 3D modeling, renowned for expertly creating P3D assets, including Lahore's ground, Dubai's C gates, and Riyadh's terminal with astonishing attention to detail.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          A master of 3D modeling, renowned for expertly creating P3D assets, including Lahore's ground, Dubai's C gates, and Riyadh's terminal with astonishing attention to detail.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank You for your recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+
+    
+  </body>
+</html>
